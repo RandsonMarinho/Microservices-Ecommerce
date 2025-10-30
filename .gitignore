@@ -1,5 +1,135 @@
-bin/
-obj/
-.vs/
-*.db
-appsettings.*.json
+# =========================
+# VISUAL STUDIO / .NET
+# =========================
+
+## Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+TestResults/
+out/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+*.log
+*.tlog
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+## Visual Studio database
+*.mdf
+*.ldf
+
+## Rider / JetBrains
+.idea/
+*.sln.iml
+
+## Packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+!**/packages/build/
+!**/packages/repositories.config
+
+## Publish
+*.Publish.xml
+*.pubxml
+*.pubxml.user
+publish/
+AppPackages/
+BundleArtifacts/
+node_modules/
+
+## ASP.NET
+project.lock.json
+artifacts/
+
+## NuGet restore
+project.assets.json
+
+# =========================
+# ENVIRONMENT / CONFIG
+# =========================
+
+# Local secrets
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+.env
+.env.local
+.env.*.local
+
+# =========================
+# SYSTEM FILES
+# =========================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.bak
+*.tmp
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# =========================
+# DOCKER
+# =========================
+
+*.pid
+*.seed
+docker-compose.override.yml
+docker-compose.*.yml
+
+# =========================
+# GIT
+# =========================
+
+# Ignore temporary Git merge/patch files
+*.orig
+*.rej
+*.diff
+
+# =========================
+# LARGE FILES (block binaries)
+# =========================
+
+# Prevent large binaries and installers
+*.exe
+*.msi
+*.iso
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# Prevent heavy setup files
+src/InventoryService/Developer_PTB/
+Setup/
+Installers/
+
+# =========================
+# MISC
+# =========================
+
+*.coverage
+*.coveragexml
+*.vspx
+*.vsmdi
+*.testsettings
+*.vs/
+.vscode/
+__pycache__/
